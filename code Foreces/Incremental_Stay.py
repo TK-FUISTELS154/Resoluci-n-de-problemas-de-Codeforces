@@ -1,4 +1,4 @@
-
+# tiene errores de slaida este codigo 
 
 t = int(input())
 salidas_fin = []*t
@@ -17,4 +17,5 @@ for _ in range(t):
         salidas_fin.append(salida[1:])
 
 for ouput in salidas_fin:
+
     print(*ouput)
